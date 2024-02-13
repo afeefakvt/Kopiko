@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ header{
+    width: 100%;
+    height: 220px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    text-align: center; 
+    background-color:black;
+    padding-top: 50px;
+}
+.text h1{
+color: #b7b7b7;
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+font-weight: normal;
+letter-spacing: 5px;
+}
+.text h1:hover{
+    color: tomato;
+}
+.text h5{
+    color: #b7b7b7;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+#home{
+    border-top: 1.5px solid tomato;
+    color: tomato;
+}
+
+nav{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-top: 0.1px solid #474747;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a:hover{
+    color: tomato;
+    text-decoration: none;
+}
+.image{
+    max-width: 100%;
+}
+.textimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #b7b7b7;
+    padding-bottom: 250px;
+    padding-top: 150px; 
+}
+.textimage h3{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.textimage img{
+    margin-top: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 300px;
+    align-items: center; 
+}
+.socialicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.f1,.l1,.y1{
+    height: 30px;
+    width: 30px;
+}
+.i1{
+    width: 27px;
+    height: 27px;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #b7b7b7;
+
+}
+.text2{
+    color: white;
+}
+.text2:hover{
+    color: tomato;
+    text-decoration: underline;
+    cursor: pointer;
+}
